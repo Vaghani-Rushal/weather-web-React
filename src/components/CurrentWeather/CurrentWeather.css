@@ -1,0 +1,146 @@
+.current-weather-card {
+  width: 280px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 10px -2px 20px 2px rgb(0, 0, 0, 0.3);
+  color: #ffffff;
+  background-color: #222831;
+  margin: 15px auto;
+  padding: 15px;
+}
+
+.card-top-part,
+.card-bottom-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.weather-description {
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin: 0;
+}
+
+.weather-icon {
+  width: 45px;
+}
+
+.temperature {
+  font-size: 45px;
+  font-weight: 600;
+  width: auto;
+  margin: 10px 0;
+}
+
+.weather-detailed {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.parameter-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px 0;
+}
+
+.parameter-label {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.parameter-label__heading {
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 2px solid #ffffff;
+  margin-bottom: 5px;
+}
+
+.parameter-value {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media all and (min-width: 768px) {
+  .current-weather-card {
+    width: 300px;
+    box-sizing: content-box;
+    border-radius: 20px;
+    box-shadow: 10px -2px 20px 2px rgb(0, 0, 0, 0.3);
+    color: #ffffff;
+    background-color: #222831;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .card-top-part,
+  .card-bottom-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .city {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  .weather-description {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .weather-icon {
+    width: 80px;
+  }
+
+  .temperature {
+    font-size: 70px;
+    font-weight: 600;
+    width: auto;
+    letter-spacing: -3px;
+    margin: 10px 0;
+  }
+
+  .weather-detailed {
+    width: 100%;
+    padding-left: 40px;
+  }
+
+  .parameter-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 0;
+  }
+
+  .parameter-label {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .parameter-label__heading {
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 5px;
+  }
+
+  .parameter-value {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
